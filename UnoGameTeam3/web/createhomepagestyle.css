@@ -1,0 +1,52 @@
+.button {
+    border-top: 1px solid #0f2a3b;
+    background: #95abba;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#95abba));
+    background: -webkit-linear-gradient(top, #000000, #95abba);
+    background: -moz-linear-gradient(top, #000000, #95abba);
+    background: -ms-linear-gradient(top, #000000, #95abba);
+    background: -o-linear-gradient(top, #000000, #95abba);
+    padding: 20px 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #7a6b7a;
+    font-size: 50px;
+    font-family: Airel;
+    text-decoration: none;
+    vertical-align: middle;
+    width:100%
+
+
+}
+.button:hover {
+    border-top-color: #000000;
+    background: #000000;
+    color: #de35de;
+}
+.button:active {
+    border-top-color: #5290ba;
+    background: #5290ba;
+}
+.title
+{
+    margin-right: 0px;
+    margin-left: 300px;
+    padding:5px;
+}
+html{
+    background-image: url(http://bgfons.com/upload/gold_texture488.jpg)
+
+}
+
+.text{
+    font-size: 30px;
+    font-family: Ariel;
+
+}
+
+

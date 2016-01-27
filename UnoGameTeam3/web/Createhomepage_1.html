@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Create Game Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="createhomepagestyle.css">
+    </head>
+    <body>
+
+        <div>
+            <div class="title">
+                <img src="http://mat.imageg.net/cms_widgets/23/42/2342028_assets/Wk47_Family_UNO.png"/>
+            </div>
+        </div>
+        <form action ='NewGame' method='post'>
+            <table align="center">
+                <tr>
+                    <td class="text">
+                        Description :
+                    </td>
+                    <td>
+                        <input  type="text" name="Description">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text">
+                        Players :
+                    </td>
+                    <td>
+                        <input  type="text" name="maxPlayer">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="button" type="submit" value="Create Game"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
